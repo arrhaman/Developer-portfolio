@@ -5,10 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 h1 span{
     color: rgb(246, 122, 14);
 }
-section{
+h3 span{
+    color: orange;
+}
+.flexibal-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -45,7 +51,38 @@ section{
 .Dream-big{
     background-image: url(photo/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
-    padding-right: 40px;
+    background-position: right bottom;
+    padding-right: 10px;
     
+    
+}
+#size{
+    background-size: 200px;
+}
+.exprience-area{
+    background-image: url(photo/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exprience-title{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    box-shadow: 10px 20px 10px gray;
+    border-radius: 5px;
+
+}
+#exprince-border{
+border-left: 10px solid;
+border-image: linear-gradient(orange,rgb(88, 196, 15));
+border-image-slice: 1;
+}
+#exprince-developer{
+    border-left: 10px solid;
+border-image: linear-gradient(rgb(25, 21, 250),rgb(15, 196, 196));
+border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: rgb(23, 54, 54);
 }
